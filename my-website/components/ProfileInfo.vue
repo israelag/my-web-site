@@ -5,7 +5,7 @@
         <img
           class="w-32 h-32 rounded-full mx-auto"
           :src="photo"
-          alt="profile picture"
+          alt=""
           width="400"
           height="400"
         />
