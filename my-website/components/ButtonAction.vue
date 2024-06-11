@@ -1,12 +1,12 @@
 <template>
   <div class="pt-6 text-center space-y-4">
     <a
-      href="https://cpintoval.github.io/"
+      :href="link"
       target="_blank"
       class="flex items-start rounded-lg border border-gray-400 bg-white px-5 py-4 text-lg leading-6 font-medium shadow-md hover:shadow-xl transition ease-in-out duration-150"
     >
-      <p class="mr-3 h-6 w-6">👨🏽‍💻</p>
-      Website
+      <p class="mr-3 h-6 w-6">{{ icon }}</p>
+      {{ text }}
       <div class="ml-auto mt-0.5 pl-4">
         <svg
           class="h-5 w-5 text-gray-400"
@@ -23,3 +23,7 @@
     </a>
   </div>
 </template>
+
+<script setup>
+    const { link = '#', text = '', icon = null } = defineProps(['link', 'text', 'icon']);
+</script>
