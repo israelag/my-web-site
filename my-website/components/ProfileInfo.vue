@@ -3,11 +3,9 @@
     <div>
       <figure class="p-6">
         <img
-          class="w-32 h-32 rounded-full mx-auto"
+          class="profile-photo w-32 h-32 rounded-full mx-auto"
           :src="photo"
-          alt=""
-          width="400"
-          height="400"
+          alt="Profile Photo"
         />
         <div class="pt-6 text-center space-y-4">
           <figcaption class="font-medium">
@@ -28,3 +26,11 @@
 <script setup>
     const { photo = null, title = '', subtitle = '', heading = '' } = defineProps(['photo', 'title', 'subtitle', 'heading']);
 </script>
+
+<style scoped>
+.profile-photo {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+</style>

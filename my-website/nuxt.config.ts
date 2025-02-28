@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Jaison Schmidt Website"
+      title: "Israel A Gomes Website"
     }
   }
 })
