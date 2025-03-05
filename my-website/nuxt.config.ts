@@ -25,4 +25,18 @@ export default defineNuxtConfig({
       title: "Israel A Gomes Website",
     },
   },
+
+  // Adicionando compatibilidade com Netlify
+  nitro: {
+    preset: "netlify",
+  },
+
+  // Configurações do SSR
+  ssr: true,
+
+/*   vue: {  
+    compilerOptions: {
+      isCustomElement: (tag) => ['FontAwesomeIcon'].includes(tag),
+    },
+  }, */
 });

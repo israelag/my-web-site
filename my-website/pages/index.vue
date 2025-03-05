@@ -1,6 +1,8 @@
 <!-- pages/index.vue -->
 <template>
-  <Popup />
+  <client-only>
+    <Popup />
+  </client-only>
   <ProfileInfo
     :photo="photo"
     title="Israel A Gomes"

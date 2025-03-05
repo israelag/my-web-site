@@ -22,3 +22,6 @@ logs
 .env
 .env.*
 !.env.example
+
+# Ignorar arquivos e diretórios do Netlify
+.netlify/
