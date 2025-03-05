@@ -1,81 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Israel A Gomes Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é um projeto desenvolvido com Nuxt.js, Vue.js e Tailwind CSS. Ele inclui componentes reutilizáveis, integração com FontAwesome e uma estrutura bem organizada para facilitar o desenvolvimento e a manutenção.
 
-## Setup
+## Documentação
 
-Make sure to install the dependencies:
+Para saber mais sobre o Nuxt 3, consulte a documentação oficial.
 
-```bash
-# npm
-npm install
+## Estrutura do Projeto
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-
-
+```plaintext
 my-website
 ├─ assets
 │  ├─ css
@@ -99,24 +32,25 @@ my-website
 ├─ README.md
 ├─ tailwind.config.js
 └─ tsconfig.json
+```
 
-
-Seu projeto parece bem organizado! Você está utilizando Nuxt.js com Vue.js e Tailwind CSS, o que é uma ótima combinação para desenvolvimento web moderno. Aqui está um breve resumo da estrutura do seu projeto:
+### Descrição dos Diretórios
 
 - **.nuxt**: Diretório gerado automaticamente pelo Nuxt.js durante a construção do projeto.
 - **assets**: Contém arquivos estáticos como CSS e imagens.
-  - **css/main.css**: Seu arquivo CSS principal.
-  - **img/picture.jpeg**: Uma imagem usada no projeto.
+  - **css/main.css**: Arquivo CSS principal.
+  - **img/picture.jpeg**: Minha foto de apresentação profissional.
+  - **js/professionalSummary.js**: Resumo do meu histórico profissional.
 - **components**: Componentes Vue reutilizáveis.
-  - **ButtonAction.vue**: Um componente de botão.
+  - **ButtonAction.vue**: Componentização dos botões.
   - **ProfileInfo.vue**: Um componente de informações de perfil.
-- **node_modules**: Diretório de dependências do Node.js.
+  - **Popup.vue**: Um componente do pop-up do históricon profissional.
 - **pages**: Páginas do seu aplicativo.
   - **index.vue**: A página inicial.
 - **plugins**: Plugins do Nuxt.js.
   - **fontawesome.client.js**: Plugin para FontAwesome.
 - **public**: Arquivos públicos acessíveis diretamente.
-  - **favicon.ico**: Ícone do site.
+  - **favicon.ico**: Ícone defaut do Nuxt para o modo de execução "dev".
 - **server**: Diretório para código do servidor (se aplicável).
 - **.gitignore**: Arquivo para ignorar arquivos no controle de versão.
 - **nuxt.config.ts**: Configurações do Nuxt.js.
@@ -125,4 +59,83 @@ Seu projeto parece bem organizado! Você está utilizando Nuxt.js com Vue.js e T
 - **tailwind.config.js**: Configurações do Tailwind CSS.
 - **tsconfig.json**: Configurações do TypeScript.
 
-Se precisar de ajuda com alguma parte específica do seu projeto, sinta-se à vontade para perguntar! 😊
+## Configuração
+
+Certifique-se de instalar as dependências:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Servidor de Desenvolvimento
+
+Inicie o servidor de desenvolvimento em `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm run dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Produção
+
+Construa a aplicação para produção:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm run build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Pré-visualize a build de produção localmente:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm run preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Confira a documentação de deployment para mais informações.
+
+## Sobre o Projeto
+
+Este projeto utiliza Nuxt.js com Vue.js e Tailwind CSS, uma combinação poderosa para o desenvolvimento web moderno. Ele inclui:
+
+- **Componentes reutilizáveis**: Facilita a manutenção e a escalabilidade do código.
+- **Integração com FontAwesome**: Para ícones e gráficos vetoriais.
+- **Configuração de Tailwind CSS**: Para um design responsivo e moderno.
+
