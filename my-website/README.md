@@ -79,3 +79,5 @@ Este projeto utiliza Nuxt.js com Vue.js e Tailwind CSS, uma combinação poderos
 - **Integração com FontAwesome**: Para ícones e gráficos vetoriais.
 - **Configuração de Tailwind CSS**: Para um design responsivo e moderno.
 
+## Publicado no NEtlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d1267232-f84b-4418-9a19-11c31762d960/deploy-status)](https://app.netlify.com/sites/bucolic-trifle-7fd63a/deploys)
