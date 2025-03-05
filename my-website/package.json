@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "my-website",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "@nuxt/nitro": "^0.10.0",
     "nuxt": "^3.11.2",
     "nuxt-app": "file:",
     "vue": "^3.4.27",

@@ -1,5 +1,7 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  // Configurações do SSR
+  ssr: true,
+
   devtools: { enabled: true },
 
   // Adicionando módulos
@@ -26,17 +28,10 @@ export default defineNuxtConfig({
     },
   },
 
-  // Adicionando compatibilidade com Netlify
+  // 🔥 Garante que o preset do Netlify está ativo
   nitro: {
     preset: "netlify",
   },
 
-  // Configurações do SSR
-  ssr: true,
-
-/*   vue: {  
-    compilerOptions: {
-      isCustomElement: (tag) => ['FontAwesomeIcon'].includes(tag),
-    },
-  }, */
+  compatibilityDate: "2025-03-05",
 });
